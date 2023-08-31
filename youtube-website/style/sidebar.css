@@ -1,0 +1,117 @@
+ 
+ .sidebar {
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    top:55px;
+    background-color: white;
+    width:72px;
+    z-index:200;
+    padding-top: 5px;
+ }
+
+ .sidebar-link {
+  
+  height:74px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor:pointer;
+  
+ }
+
+ .sidebar-link:hover {
+   background-color: rgb(235, 235, 235);
+ }
+
+ .sidebar-link img {
+   height:25px;
+   width:25px;
+   margin-bottom: 4px;;
+
+   }
+
+
+   .sidebar-link div {
+      font-family: Roboto, arial;
+      font-size: 10px;
+      font-weight: bold;
+   }
+
+
+   
+   
+/* Adjusting the height of sidebar links for smaller screens */
+@media (max-width: 768px) {
+   .sidebar-link {
+     height: 60px;
+   }
+ }
+ 
+ /* Adjusting the height and font size of sidebar links for even smaller screens */
+ @media (max-width: 480px) {
+   .sidebar-link {
+     height: 50px;
+   }
+   .sidebar-link div {
+     font-size: 8px;
+   }
+ }
+ 
+ .sidebar-link img {
+   height: 25px;
+   width: 25px;
+   margin-bottom: 4px;
+ }
+ 
+ /* Adjusting the image size for smaller screens */
+ @media (max-width: 768px) {
+   .sidebar-link img {
+     height: 20px;
+     width: 20px;
+   }
+ }
+ 
+ /* Adjusting the image size for even smaller screens */
+ @media (max-width: 480px) {
+   .sidebar-link img {
+     height: 18px;
+     width: 18px;
+   }
+ }
+ 
+ .sidebar-link div {
+   font-family: Roboto, Arial;
+   font-size: 10px;
+   font-weight: bold;
+ }
+ 
+ /* Adjusting the font size for smaller screens */
+ @media (max-width: 768px) {
+   .sidebar-link div {
+     font-size: 8px;
+   }
+ }
+ 
+ /* Adjusting the font size for even smaller screens */
+ @media (max-width: 480px) {
+   .sidebar-link div {
+     font-size: 6px;
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
